@@ -1,4 +1,7 @@
-"""This project creates a calculator that can compute the area of a given shape, as selected by the user"""
+"""This project creates a calculator that can compute the area of a given shape, as selected by the user. 
+The calculator will be able to determine the area of the following shapes: Circle, and Triangle. The program should do the following: 
+1. Prompt the user to select a shape. 2. Depending on the shape the user selects, calculate the area of that shape. 3. Print the area 
+of that shape to the user."""
 
 """Since we will calculate the area of a circle, we will need to import the value pi"""
 from math import pi
@@ -30,7 +33,9 @@ option = raw_input("What shape do you want to calculate the area of? Enter C for
 """Making sure that the user response is upper case"""
 option = option.upper()
 
-"""Time to calculate the area of the shape the user specifies. We wrap the raw_input with float(), as this will make sure we are storing the user's input as a floating point number. %.2f. gives area answer in two decimal places and \n prints Hint on next line.
+"""Time to calculate the area of the shape the user specifies. 
+We wrap the raw_input with float(), as this will make sure we are storing the user's input as a floating point number. %.2f. 
+gives area answer in two decimal places and \n prints Hint on next line.
 """
 if option == "C":
     radius = float(raw_input("Enter radius:"))
