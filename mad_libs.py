@@ -1,4 +1,7 @@
-"""This program builds a Mad Libs story. Mad Libs require words from the reader for the blank spaces and a story to plug the words into."""
+"""In this project, I'll use Python to write a Mad Libs story! Mad Libs are stories with blank spaces that a reader can fill in 
+with their own words. The result is usually a funny (or strange) story.
+Mad Libs require: Words from the reader (for the blank spaces), and a story to plug the words into. 
+The program will: 1. Prompt the user for input. 2.Print the entire Mad Libs story with the user's input in the right places"""
 
 """Informing the user that the program has started"""
 # IDE - Integrated Development Environment (makes your life easier)
