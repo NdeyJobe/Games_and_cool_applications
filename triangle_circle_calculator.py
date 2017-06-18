@@ -28,7 +28,7 @@ sleep(1)
 hint = "Don't forget to include the correct units! \nExiting..."
 
 """To find out what shape to calculate the area of"""
-option = raw_input("What shape do you want to calculate the area of? Enter C for Circle or T for Triangle:")
+option = raw_input("What shape do you want to calculate the area of? Enter C for Circle or T for Triangle: ")
 
 """Making sure that the user response is upper case"""
 option = option.upper()
@@ -38,14 +38,14 @@ We wrap the raw_input with float(), as this will make sure we are storing the us
 gives area answer in two decimal places and \n prints Hint on next line.
 """
 if option == "C":
-    radius = float(raw_input("Enter radius:"))
+    radius = float(raw_input("Enter radius: "))
     area = pi * (radius ** 2)
     print "The pie is baking..."
     sleep(1)
     print ("Area: %.2f. \n%s" % (area, hint))
 elif option == "T":
-    base = float(raw_input("Enter the base of the triangle:"))
-    height = float(raw_input("Enter the height of the triangle:"))
+    base = float(raw_input("Enter the base of the triangle: "))
+    height = float(raw_input("Enter the height of the triangle: "))
     area = 1.0/2 * base * height
     print "Uni Bi Tri..."
     sleep(1)
