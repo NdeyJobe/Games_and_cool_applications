@@ -1,4 +1,4 @@
-"""This project uses While else loop to generate three lucky numbers, if one of them is a 5, you lose."""
+"m""This project uses While else loop to generate three lucky numbers, if one of them is a 5, you lose."""
 import random
 # Game 1
 print "Lucky Numbers! 3 numbers will be generated."
@@ -24,7 +24,7 @@ random_number = randint(1, 10)
 guesses_left = 3
 # Start your game!
 while guesses_left > 0:
-    guess = raw_input("Guess a nuber: ")
+    guess = raw_input("Guess a number: ")
     print guess
     print random_number
     if guess == random_number:
